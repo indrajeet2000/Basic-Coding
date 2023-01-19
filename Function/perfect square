@@ -1,0 +1,16 @@
+#include<iostream>
+#include<cstdio>
+#include<cmath>
+using namespace std;
+int main()
+{
+  double n;
+  cin>>n;
+  if( ceil(sqrt(n)) == floor(sqrt(n)) )
+    cout<<"yes";
+  else cout<<"no";
+   return 0;
+}
+
+
+/////////// floor(decrease, 2.3->2, -2.3->3) and ceil(increase, 2.3->3, -2.3->2)
