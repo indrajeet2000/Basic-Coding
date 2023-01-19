@@ -1,0 +1,4 @@
+int gcd(int i, int j)
+{
+  return j==0? i:gcd(j,i%j);
+}
