@@ -1,0 +1,9 @@
+int power(int num, int pow){
+  int p=1;
+  if(pow<0)return -1;
+  for(int i=0;i<pow;i++)
+  {
+    p=p*num;
+  }
+  return p;
+}
