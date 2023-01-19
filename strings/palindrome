@@ -1,0 +1,8 @@
+// Return true if the string is palindrome, else return false
+bool isPalindrome(string str) {
+  string arr=str;
+  reverse(arr.begin(),arr.end());
+  if(arr==str) return true;
+  else return false;
+
+}
